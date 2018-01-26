@@ -42,7 +42,7 @@ figcaption {
 /* ID selector (apply to one unique element per page) */
 
 #logo { /* select elements with id="logo" */
-  background: aqua;
+  /*background: aqua;*/
 }
 
 /* Descendent Selector */
@@ -87,7 +87,7 @@ img, video, audio {
 .wrapper{
   width: 960px;
   margin: 0 auto;
-  background: #eee;
+  /*background: #eee;*/
 }
 
 .col-1{
@@ -124,6 +124,17 @@ img, video, audio {
 }
 
 /*sections*/
+
+header{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  background: white;
+  z-index: 1;
+
+}
+
 section{
   padding: 20px;
   margin-bottom: 20 px;
@@ -143,5 +154,5 @@ section{
   width: 40px;
   height: 40px;
   background: yellow;
-  
+
 }
